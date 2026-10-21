@@ -1,7 +1,6 @@
 # W2_Workshop
 
-Group Names:
-
-Alvie Ahmed 
-Seed Johnson
-Marilyn Saeteros 
+#Group Members
+- Marilyn Saeteros 
+- Alvie Ahmed 
+- Seed Johnson
