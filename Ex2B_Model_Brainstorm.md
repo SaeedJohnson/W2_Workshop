@@ -14,23 +14,19 @@ Categories of Data
    - First Name
    - Last Name 
    - Phone Number
-   - Email
-   - Home Address 
+   - Email 
      
 2. Dog Data
    - Dog ID
    - Dog Name
    - Dog Breed
    - Dog Age
-   - Dog Allergy
    - Special Instructions
 
-3.Schedule Walks 
-   -Walk ID 
+3. Schedule Walks 
+   - Walk ID 
    - Dog ID
    - Date 
-   - Start Time 
-   - End Time
    - Duration
 
 4. Payment Method
@@ -39,7 +35,7 @@ Categories of Data
    - Payement Method
    - Payment Date
    - Amount Paid
-   - PaymentStatus 
+   - Payment Status 
    
 #Logical Model 
 
