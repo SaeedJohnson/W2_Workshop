@@ -3,4 +3,4 @@
 #Group Members
 - Marilyn Saeteros 
 - Alvie Ahmed 
-- Seed Johnson
+- Saeed Johnson
