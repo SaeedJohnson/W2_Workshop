@@ -49,7 +49,7 @@ b) Attributes:
    - Customer: Customer_ID, First_Name, Last_Name, Phone_Number, Email
    - Dog: Dog_ID, Customer_ID, Dog_Name, Breed, Age, Instructions
    - Walks: Walk_ID, Dog_ID, Walk_Date, Time_Start, Time_End
-   - Payment: Payment_ID, Walk_ID, Payment_Method, Payment_Date, Total_Bill, Amount_Paid
+   - Payment: Payment_ID, Walk_ID, Payment_Method, Payment_Date, Total_Bill, Payment_Status
 
 c) Entity Relationships:
    - Primary Keys: Customer_ID, Dog_ID, Walk_ID, Payment_ID
