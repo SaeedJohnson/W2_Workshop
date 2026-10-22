@@ -65,6 +65,9 @@ Entity Connection:
    Walk entity will be using Dog_ID to pull out information on what dog is being taken on the walk from the Dog entity. 
    Payment entity will be using Walk_ID to pull out information on which walk is being paid for.
 
-d)
+d) Many-to-many relationships
+- Walks and Dogs: one walk can include several dogs, and one dog goes on many walks.
+  A resolving table, Walk_Dogs, holds one row per dog per walk, which turns
+  the many-to-many relationship into two one-to-many relationships.
 
-e)
+e) Done
