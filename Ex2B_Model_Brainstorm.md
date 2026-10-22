@@ -37,13 +37,33 @@ Categories of Data
    - Amount Paid
    - Payment Status 
    
-#Logical Model 
+# Logical Model 
 
-a)
+a) Main entities:
+   - Customer
+   - Dog
+   - Walks
+   - Payment
 
-b)
+b) Attributes:
+   - Customer: Customer_ID, First_Name, Last_Name, Phone_Number, Email
+   - Dog: Dog_ID, Customer_ID, Dog_Name, Breed, Age, Instructions
+   - Walks: Walk_ID, Dog_ID, Walk_Date, Time_Start, Time_End
+   - Payment: Payment_ID, Walk_ID, Payment_Method, Payment_Date, Total_Bill, Amount_Paid
 
-c)
+c) Entity Relationships:
+   - Primary Keys: Customer_ID, Dog_ID, Walk_ID, Payment_ID
+   - Foreign Keys: Customer_ID, Dog_ID, Walk_ID
+
+Entity Connection:
+   - Dog Entity: Customer_ID -> Customer Entity
+   - Walk Entity: Dog_ID -> Dog Entity
+   - Payment Entity: Walk_ID -> Walk Entity
+
+   With Customer being the main entity, each other entity will be pulling information from one another.
+   Dog entity will be using Customer_ID to pull out which customer the dog belongs to from the Customer entity.
+   Walk entity will be using Dog_ID to pull out information on what dog is being taken on the walk from the Dog entity. 
+   Payment entity will be using Walk_ID to pull out information on which walk is being paid for.
 
 d)
 
