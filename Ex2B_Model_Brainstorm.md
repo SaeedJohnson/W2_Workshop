@@ -34,7 +34,7 @@ Categories of Data
    - Customer ID
    - Payement Method
    - Payment Date
-   - Amount Paid
+   - Total bill 
    - Payment Status 
    
 # Logical Model 
